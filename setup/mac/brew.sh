@@ -31,6 +31,9 @@ brew install fzf
 # Pytnon
 brew install python3
 
+# Virtualization
+brew install caskroom/cask/virtualbox
+
 # keyboard
 brew install caskroom/cask/karabiner-elements
 
