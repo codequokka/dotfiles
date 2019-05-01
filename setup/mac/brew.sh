@@ -7,3 +7,4 @@ brew install ghq
 
 # Editor
 brew install neovim
+brew install caskroom/cask/visual-studio-code
