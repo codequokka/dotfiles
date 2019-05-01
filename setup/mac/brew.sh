@@ -33,6 +33,7 @@ brew install python3
 
 # Virtualization
 brew install caskroom/cask/virtualbox
+brew install caskroom/cask/vagrant
 
 # keyboard
 brew install caskroom/cask/karabiner-elements
