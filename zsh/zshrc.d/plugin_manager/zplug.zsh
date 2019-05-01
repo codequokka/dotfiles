@@ -1,6 +1,9 @@
 export ZPLUG_HOME=${HOME}/.zplug
 source ${ZPLUG_HOME}/init.zsh
 
+# Theme
+zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+
 # Cd
 zplug "b4b4r07/enhancd", use:init.sh
 
