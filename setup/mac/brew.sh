@@ -21,6 +21,9 @@ brew install ag
 # Fuzzy finder
 brew install fzf
 
+# Pytnon
+brew install python3
+
 # Ime
 brew cask install caskroom/cask/google-japanese-ime
 
