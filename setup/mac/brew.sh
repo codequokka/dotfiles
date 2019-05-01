@@ -22,6 +22,9 @@ brew install caskroom/cask/iterm2
 # Searcher
 brew install ag
 
+# Filer
+brew install tree
+
 # Fuzzy finder
 brew install fzf
 
