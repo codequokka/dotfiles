@@ -9,5 +9,8 @@ brew install ghq
 brew install neovim
 brew install caskroom/cask/visual-studio-code
 
+# Shell
+brew install zsh
+
 # Searcher
 brew install ag
