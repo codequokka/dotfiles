@@ -14,6 +14,7 @@ brew install caskroom/cask/pycharm-ce
 
 # Shell
 brew install zsh
+brew install direnv
 
 # Terminal
 brew install caskroom/cask/iterm2
