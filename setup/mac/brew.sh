@@ -9,6 +9,9 @@ brew install ghq
 brew install neovim
 brew install caskroom/cask/visual-studio-code
 
+# Ide
+brew install caskroom/cask/pycharm-ce
+
 # Shell
 brew install zsh
 
