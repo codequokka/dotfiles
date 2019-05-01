@@ -1,2 +1,5 @@
 # Direnv
 /config/direnv
+
+# Karabiner-elements
+/config/karabiner/automatic_backups/

@@ -28,6 +28,9 @@ brew install fzf
 # Pytnon
 brew install python3
 
+# keyboard
+brew install caskroom/cask/karabiner-elements
+
 # Ime
 brew cask install caskroom/cask/google-japanese-ime
 
