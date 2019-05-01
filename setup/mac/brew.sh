@@ -14,3 +14,6 @@ brew install zsh
 
 # Searcher
 brew install ag
+
+# Fuzzy finder
+brew install fzf
