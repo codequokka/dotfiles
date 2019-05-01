@@ -21,5 +21,8 @@ brew install ag
 # Fuzzy finder
 brew install fzf
 
+# Ime
+brew cask install caskroom/cask/google-japanese-ime
+
 # Font
 brew cask install caskroom/fonts/font-hack-nerd-font
