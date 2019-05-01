@@ -12,6 +12,9 @@ brew install caskroom/cask/visual-studio-code
 # Shell
 brew install zsh
 
+# Terminal
+brew install caskroom/cask/iterm2
+
 # Searcher
 brew install ag
 
