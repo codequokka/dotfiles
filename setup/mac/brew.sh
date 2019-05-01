@@ -20,3 +20,6 @@ brew install ag
 
 # Fuzzy finder
 brew install fzf
+
+# Font
+brew cask install caskroom/fonts/font-hack-nerd-font
