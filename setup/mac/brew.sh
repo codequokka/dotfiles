@@ -38,6 +38,9 @@ brew install caskroom/cask/vagrant
 # keyboard
 brew install caskroom/cask/karabiner-elements
 
+# Launcher
+brew install caskroom/cask/alfred
+
 # Ime
 brew cask install caskroom/cask/google-japanese-ime
 
