@@ -35,6 +35,9 @@ brew install python3
 brew install caskroom/cask/virtualbox
 brew install caskroom/cask/vagrant
 
+# Configulation management
+brew install ansible
+
 # keyboard
 brew install caskroom/cask/karabiner-elements
 
