@@ -56,11 +56,15 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>587 148 480 94 0 0 2560 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>508 340 796 486 0 0 2560 1057 </string>
+	<string>508 377 796 486 0 0 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>293 99 993 724 0 0 2560 1057 </string>
+	<string>7 274 993 758 0 0 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>251 134 1033 826 0 0 2560 1057 </string>
+	<string>251 219 985 741 0 0 2560 1057 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>0 0 1273 1057 0 0 2560 1057 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>370 287 1041 690 0 0 2560 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1314,7 +1318,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.033603664340101522</real>
+			<real>0.10934129124365483</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1389,7 +1393,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-01T03:05:33Z</date>
+	<date>2019-05-03T05:55:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
