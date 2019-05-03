@@ -44,6 +44,9 @@ brew install caskroom/cask/karabiner-elements
 # Launcher
 brew install caskroom/cask/alfred
 
+# Window management
+brew install caskroom/cask/slate
+
 # Ime
 brew cask install caskroom/cask/google-japanese-ime
 
