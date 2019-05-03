@@ -1,0 +1,3 @@
+# plugin manager
+[[plugins]]
+repo = 'shougo/dein.vim'
