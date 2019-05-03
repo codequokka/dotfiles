@@ -18,6 +18,7 @@ brew install direnv
 
 # Terminal
 brew install caskroom/cask/iterm2
+brew install tmux
 
 # Searcher
 brew install ag
