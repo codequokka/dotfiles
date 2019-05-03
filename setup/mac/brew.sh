@@ -36,6 +36,9 @@ brew install python3
 brew install caskroom/cask/virtualbox
 brew install caskroom/cask/vagrant
 
+# Container
+brew install caskroom/cask/docker
+
 # Configulation management
 brew install ansible
 
