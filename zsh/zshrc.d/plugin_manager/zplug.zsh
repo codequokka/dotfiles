@@ -8,6 +8,7 @@ zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 zplug "b4b4r07/enhancd", use:init.sh
 
 # Completion
+zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 
 # Install plugins if there are plugins that have not been installed
