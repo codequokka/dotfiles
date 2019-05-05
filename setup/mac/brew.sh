@@ -30,6 +30,9 @@ brew install tree
 # Fuzzy finder
 brew install fzf
 
+# Cat
+brew install bat
+
 # Pytnon
 brew install python3
 
