@@ -37,6 +37,7 @@ brew install bat
 
 # Pytnon
 brew install python3
+brew install caskroom/cask/kite
 
 # Virtualization
 brew install caskroom/cask/virtualbox
