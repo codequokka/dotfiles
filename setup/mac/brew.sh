@@ -4,6 +4,7 @@
 brew install git
 brew install hub
 brew install ghq
+brew install caskroom/cask/github
 
 # Editor
 brew install neovim
