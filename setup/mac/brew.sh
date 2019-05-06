@@ -24,6 +24,7 @@ brew install tmux
 
 # Searcher
 brew install ag
+brew install rg
 
 # Filer
 brew install tree
