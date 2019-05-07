@@ -35,9 +35,16 @@ brew install fzf
 # Cat
 brew install bat
 
+# Log
+brew install logstash
+
 # Pytnon
 brew install python3
 brew install caskroom/cask/kite
+
+# Java
+brew install homebrew/cask-versions/adoptopenjdk8
+
 
 # Virtualization
 brew install caskroom/cask/virtualbox
