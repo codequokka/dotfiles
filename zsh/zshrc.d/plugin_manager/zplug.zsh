@@ -6,6 +6,7 @@ zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
 # Cd
 zplug "b4b4r07/enhancd", use:init.sh
+zplug "mollifier/cd-gitroot"
 
 # Completion
 zplug "zsh-users/zsh-completions"
