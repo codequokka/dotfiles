@@ -53,3 +53,14 @@ hook_add = '''
   " Select a first candidate automatically
   set completeopt+=noinsert
 '''
+
+# Status line
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+  " Use powerline font
+  let g:airline_powerline_fonts = 1
+  
+  " Enable tabline
+  let g:airline#extensions#tabline#enabled = 1
+'''
