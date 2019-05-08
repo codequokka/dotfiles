@@ -35,6 +35,9 @@ brew install fzf
 # Cat
 brew install bat
 
+# Pager
+brew install vimpager
+
 # Log
 brew install logstash
 
