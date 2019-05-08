@@ -42,6 +42,9 @@ brew install logstash
 brew install python3
 brew install caskroom/cask/kite
 
+# Go
+brew install go
+
 # Java
 brew install homebrew/cask-versions/adoptopenjdk8
 
