@@ -41,16 +41,18 @@ brew install vimpager
 # Log
 brew install logstash
 
-# Pytnon
+# Python
 brew install python3
 brew install caskroom/cask/kite
+
+# Ruby
+brew install ruby
 
 # Go
 brew install go
 
 # Java
 brew install homebrew/cask-versions/adoptopenjdk8
-
 
 # Virtualization
 brew install caskroom/cask/virtualbox
