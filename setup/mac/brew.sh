@@ -64,6 +64,9 @@ brew install caskroom/cask/docker
 # Configulation management
 brew install ansible
 
+# Travis
+brew install jkawamoto/loci/loci
+
 # keyboard
 brew install caskroom/cask/karabiner-elements
 
