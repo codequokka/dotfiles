@@ -11,3 +11,5 @@
 /config/fish/functions/
 /config/fisher/
 
+# Zsh
+zsh/history/
