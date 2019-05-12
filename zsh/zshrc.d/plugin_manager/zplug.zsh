@@ -14,7 +14,7 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "docker/cli", use:"contrib/completion/zsh/_docker", lazy:true
 
 # Syntax highlighting
-zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # History
 zplug "larkery/zsh-histdb", use:sqlite-history.zsh
