@@ -1395,7 +1395,7 @@
                 }
             ],
             "name": "Kinesis",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0
@@ -1427,18 +1427,18 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "caps_lock"
-                            },
-                            "to": {
-                                "key_code": "left_control"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "application"
                             },
                             "to": {
                                 "key_code": "right_control"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "caps_lock"
+                            },
+                            "to": {
+                                "key_code": "left_control"
                             }
                         },
                         {
@@ -1551,7 +1551,7 @@
                 }
             ],
             "name": "Normal",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0
