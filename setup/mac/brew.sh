@@ -64,6 +64,9 @@ brew install caskroom/cask/docker
 # Configulation management
 brew install ansible
 
+# Database
+brew install caskroom/cask/db-browser-for-sqlite
+
 # Travis
 brew install jkawamoto/loci/loci
 
