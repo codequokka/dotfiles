@@ -74,6 +74,9 @@ brew install caskroom/cask/db-browser-for-sqlite
 # Travis
 brew install jkawamoto/loci/loci
 
+# Business Intelligence
+brew install caskroom/cask/metabase
+
 # keyboard
 brew install caskroom/cask/karabiner-elements
 
