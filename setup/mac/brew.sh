@@ -55,6 +55,9 @@ brew install go
 # Java
 brew install homebrew/cask-versions/adoptopenjdk8
 
+# Node
+brew install node
+
 # Virtualization
 brew install caskroom/cask/virtualbox
 brew install caskroom/cask/vagrant
