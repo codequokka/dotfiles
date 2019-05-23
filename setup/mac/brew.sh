@@ -89,5 +89,8 @@ brew install caskroom/cask/slate
 # Ime
 brew cask install caskroom/cask/google-japanese-ime
 
+# Office suite
+brew cask install caskroom/cask/libreoffice
+
 # Font
 brew cask install caskroom/fonts/font-hack-nerd-font
