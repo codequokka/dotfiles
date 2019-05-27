@@ -18,6 +18,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # History
 zplug "larkery/zsh-histdb", use:sqlite-history.zsh
+# zplug "m42e/zsh-histdb", use:sqlite-history.zsh, at:update_outcome
 zplug "b4b4r07/zsh-history", use:init.zsh, hook-build:"make && sudo make install"
 
 # Install plugins if there are plugins that have not been installed
