@@ -54,7 +54,6 @@ brew install go
 
 # Java
 brew install homebrew/cask-versions/adoptopenjdk8
-
 # Node
 brew install node
 
@@ -76,6 +75,10 @@ brew install jkawamoto/loci/loci
 
 # Business Intelligence
 brew install caskroom/cask/metabase
+
+# Archiver
+brew install caskroom/cask/the-unarchiver
+
 
 # keyboard
 brew install caskroom/cask/karabiner-elements
