@@ -79,9 +79,8 @@ brew install caskroom/cask/metabase
 # Archiver
 brew install caskroom/cask/the-unarchiver
 
-
-# keyboard
-brew install caskroom/cask/karabiner-elements
+# Android
+brew install caskroom/cask/android-file-transfer
 
 # Launcher
 brew install caskroom/cask/alfred
