@@ -2,10 +2,10 @@
 version: "3"
 
 tasks:
-  deploy:
+  apply:
     cmds:
       - chezmoi apply --source . --verbose
-  dry-run:
+  diff:
     cmds:
       - chezmoi apply --source . --verbose --dry-run
   test:
