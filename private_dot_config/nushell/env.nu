@@ -41,6 +41,13 @@ let config_path = $nu.cache-dir | path join 'atuin.nu'
 if not ($config_path | path exists) { atuin init nu | save -f $config_path }
 
 # ------------------------------------------------------------------------------
+# Carapace
+# ------------------------------------------------------------------------------
+# $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense'
+let config_path = $nu.cache-dir | path join 'carapace.nu'
+if not ($config_path | path exists) { carapace _carapace nushell | save -f $config_path }
+
+# ------------------------------------------------------------------------------
 # Starship
 # ------------------------------------------------------------------------------
 let config_path = $nu.cache-dir | path join 'starship.nu'
