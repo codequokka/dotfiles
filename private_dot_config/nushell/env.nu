@@ -30,18 +30,24 @@ $env.PATH = (
 )
 
 # ------------------------------------------------------------------------------
-# Starship
+# Cache
 # ------------------------------------------------------------------------------
-mkdir ~/.cache/starship
-starship init nu | save -f ~/.cache/starship/init.nu
-
-# ------------------------------------------------------------------------------
-# Zoxide
-# ------------------------------------------------------------------------------
-zoxide init nushell | save -f ~/.zoxide.nu
+if not ($nu.cache-dir | path exists) { mkdir $nu.cache-dir }
 
 # ------------------------------------------------------------------------------
 # Atuin
 # ------------------------------------------------------------------------------
-mkdir ~/.local/share/atuin/
-atuin init nu | save -f ~/.local/share/atuin/init.nu
+let config_path = $nu.cache-dir | path join 'atuin.nu'
+if not ($config_path | path exists) { atuin init nu | save -f $config_path }
+
+# ------------------------------------------------------------------------------
+# Starship
+# ------------------------------------------------------------------------------
+let config_path = $nu.cache-dir | path join 'starship.nu'
+if not ($config_path | path exists) { starship init nu | save -f $config_path }
+
+# ------------------------------------------------------------------------------
+# Zoxide
+# ------------------------------------------------------------------------------
+let config_path = $nu.cache-dir | path join 'zoxide.nu'
+if not ($config_path | path exists) { zoxide init nushell | save -f $config_path }

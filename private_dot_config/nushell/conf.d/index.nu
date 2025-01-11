@@ -1,3 +1,3 @@
-source zoxide.nu
-# source starship.nu
 source atuin.nu
+# source starship.nu
+source zoxide.nu
