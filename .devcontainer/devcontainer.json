@@ -37,6 +37,8 @@
         "mads-hartmann.bash-ide-vscode",
         "rogalmic.bash-debug",
         "timonwong.shellcheck",
+        // Nushell
+        "thenuprojectcontributors.vscode-nushell-lang",
         // Toml
         "tamasfe.even-better-toml",
         // Json

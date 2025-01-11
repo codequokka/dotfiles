@@ -16,3 +16,32 @@
 #
 # You can remove these comments if you want or leave
 # them for future reference.
+
+# ------------------------------------------------------------------------------
+# Environmet variables
+# ------------------------------------------------------------------------------
+$env.EDITOR = 'nvim'
+$env.PATH = (
+  $env.PATH
+  | split row (char esep)
+  # TODO: REPLACE
+  | prepend '/opt/homebrew/bin'
+  | uniq
+)
+
+# ------------------------------------------------------------------------------
+# Starship
+# ------------------------------------------------------------------------------
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+
+# ------------------------------------------------------------------------------
+# Zoxide
+# ------------------------------------------------------------------------------
+zoxide init nushell | save -f ~/.zoxide.nu
+
+# ------------------------------------------------------------------------------
+# Atuin
+# ------------------------------------------------------------------------------
+mkdir ~/.local/share/atuin/
+atuin init nu | save -f ~/.local/share/atuin/init.nu
