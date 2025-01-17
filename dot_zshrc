@@ -114,8 +114,7 @@ source <(aqua completion zsh)
 #  Atuin
 # ------------------------------------------------------------------------------
 zvm_after_init_commands+=(eval "$(atuin init zsh)")
-
-(pgrep -f "atuin daemon" &> /dev/null || atuin daemon &> $XDG_RUNTIME_DIR/atuin.log &)
+(pgrep -f "atuin daemon" &> /dev/null || atuin daemon &> ~/.cache/atuin.log &)
 
 # ------------------------------------------------------------------------------
 #  Chezmoi
