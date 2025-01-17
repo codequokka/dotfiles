@@ -42,3 +42,4 @@ packages:
   - name: zellij-org/zellij@v0.41.2
   - name: ajeetdsouza/zoxide@v0.9.6
   - name: atuinsh/atuin@v18.4.0
+  - name: nushell/nushell@0.101.0

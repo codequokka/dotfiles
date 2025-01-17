@@ -4,6 +4,10 @@ command:
     exec: fish --version
     exit-status: 0
 
+  nu:
+    exec: nu --version
+    exit-status: 0
+
   sheldon:
     exec: sheldon version
     exit-status: 0
