@@ -57,4 +57,4 @@ if not ($config_path | path exists) { starship init nu | save -f $config_path }
 # Zoxide
 # ------------------------------------------------------------------------------
 let config_path = $nu.cache-dir | path join 'zoxide.nu'
-if not ($config_path | path exists) { zoxide init nushell | save -f $config_path }
+if not ($config_path | path exists) { zoxide init nushell --no-cmd | save -f $config_path }
