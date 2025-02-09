@@ -18,3 +18,5 @@
 # them for future reference.
 
 source conf.d/index.nu
+
+$env.config.keybindings = custom-keybindings
