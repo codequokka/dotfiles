@@ -64,6 +64,10 @@ command:
     exec: goss --version
     exit-status: 0
 
+  hadolint:
+    exec: hadolint --version
+    exit-status: 0
+
   helm:
     exec: helm version
     exit-status: 0
