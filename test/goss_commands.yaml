@@ -120,6 +120,10 @@ command:
     exec: sops --version
     exit-status: 0
 
+  talosctl:
+    exec: talosctl help
+    exit-status: 0
+
   task:
     exec: task --version
     exit-status: 0
