@@ -56,16 +56,6 @@ export AQUA_GLOBAL_CONFIG=~/.config/aquaproj-aqua/aqua.yaml
 ~/.local/share/aquaproj-aqua/bin/aqua install --all
 
 # -----------------------------------------------------------------------------
-# Terminal
-# -----------------------------------------------------------------------------
-# Tmux plugin manager
-# if [[ ! -e ~/.tmux/plugins/tpm ]]; then
-#   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-#   [[ -e /.dockerenv ]] && export APPIMAGE_EXTRACT_AND_RUN=1
-#   ~/.tmux/plugins/tpm/bin/install_plugins
-# fi
-
-# -----------------------------------------------------------------------------
 # Shell
 # -----------------------------------------------------------------------------
 # Zsh
