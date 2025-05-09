@@ -1,15 +1,5 @@
 # shellcheck disable=all
 # ------------------------------------------------------------------------------
-# Powerlevel10k
-# ------------------------------------------------------------------------------
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# ------------------------------------------------------------------------------
 # Common environment variables
 # ------------------------------------------------------------------------------
 typeset -U path PATH
@@ -248,45 +238,13 @@ eval "$(sheldon completions --shell zsh)"
 # ------------------------------------------------------------------------------
 # Starship
 # ------------------------------------------------------------------------------
-# eval "$(starship init zsh)"
-# eval "$(starship completions zsh)"
+eval "$(starship init zsh)"
+eval "$(starship completions zsh)"
 
 # ------------------------------------------------------------------------------
 # Talosctl
 # ------------------------------------------------------------------------------
 source <(talosctl completion zsh)
-
-# ------------------------------------------------------------------------------
-# Tmux
-# ------------------------------------------------------------------------------
-# Start the tmux session if not alraedy in the tmux session
-# if [[ ! -n "$TMUX" ]]; then
-#   # Get the session IDs
-#   session_ids="$(tmux list-sessions)"
-
-#   # Create new session if no sessions exist
-#   [[ -z "$session_ids" ]] && tmux new-session
-
-#   # Select from following choices
-#   #   - Attach existing session
-#   #   - Create new session
-#   #   - Start without tmux
-#   create_new_session="Create new session"
-#   start_without_tmux="Start without tmux"
-#   choices="$session_ids\n${create_new_session}:\n${start_without_tmux}:"
-#   choice="$(echo $choices | fzf | cut -d: -f1)"
-
-#   if expr "$choice" : "[0-9]*$" >&/dev/null; then
-#     # Attach existing session
-#     tmux attach-session -t "$choice"
-#   elif [[ "$choice" = "${create_new_session}" ]]; then
-#     # Create new session
-#     tmux new-session
-#   elif [[ "$choice" = "${start_without_tmux}" ]]; then
-#     # Start without tmux
-#     :
-#   fi
-# fi
 
 # ------------------------------------------------------------------------------
 # Zellij
@@ -318,12 +276,6 @@ function zvm_after_init() {
   zvm_bindkey viins '^S^D' _fzf_filter_dirs
   zvm_bindkey viins '^J' execute_zoxide
 }
-
-# ------------------------------------------------------------------------------
-# Powerlevel10k
-# ------------------------------------------------------------------------------
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # ------------------------------------------------------------------------------
 # Bat

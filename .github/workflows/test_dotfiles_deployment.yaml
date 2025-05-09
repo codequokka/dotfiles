@@ -1,7 +1,7 @@
 name: test_dotfiles_deployment
 
 on:
-  - pull_request
+  - push
 
 jobs:
   test_dotfiles_deployment:
