@@ -49,8 +49,8 @@ manage_os_packages
 # Commands
 # -----------------------------------------------------------------------------
 # Aqua
-aqua_version='v3.1.2'
-aqua_installer_url="https://raw.githubusercontent.com/aquaproj/aqua-installer/${aqua_version}/aqua-installer"
+aqua_installer_ver='v3.1.2'
+aqua_installer_url="https://raw.githubusercontent.com/aquaproj/aqua-installer/${aqua_installer_ver}/aqua-installer"
 curl -sSfL $aqua_installer_url | bash
 export AQUA_GLOBAL_CONFIG=~/.config/aquaproj-aqua/aqua.yaml
 ~/.local/share/aquaproj-aqua/bin/aqua install --all
