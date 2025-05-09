@@ -29,7 +29,9 @@
         // Shell script
         "foxundermoon.shell-format",
         "mads-hartmann.bash-ide-vscode",
-        "timonwong.shellcheck"
+        "timonwong.shellcheck",
+        // Toml
+        "tamasfe.even-better-toml"
         // Docker
         // "ms-azuretools.vscode-docker",
         // Git
@@ -38,8 +40,6 @@
         // "esbenp.prettier-vscode",
         // Nushell
         // "thenuprojectcontributors.vscode-nushell-lang",
-        // Toml
-        // "tamasfe.even-better-toml"
       ]
     }
   }
