@@ -41,7 +41,7 @@ packages:
   - name: sharkdp/bat@v0.24.0
   - name: sharkdp/fd@v10.2.0
   - name: siderolabs/talos@v1.9.5
-  - name: starship/starship@v1.21.1
+  - name: starship/starship@v1.23.0
   - name: x-motemen/ghq@v1.7.1
   - name: ynqa/jnv@v0.4.2
   - name: zellij-org/zellij@v0.42.2
