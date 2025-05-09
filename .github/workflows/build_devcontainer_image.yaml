@@ -1,0 +1,14 @@
+name: test_devcontainer_image_build
+
+on:
+  - push
+
+jobs:
+  test_devcontainer_image_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build devcontainer image
+        uses: devcontainers/ci@v0.3
