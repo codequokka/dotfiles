@@ -22,25 +22,25 @@
         "[shellscript]": {
           "editor.defaultFormatter": "foxundermoon.shell-format"
         }
-      }
-    },
-    "extensions": [
-      // Github actions
-      "github.vscode-github-actions",
-      // Shell script
-      "foxundermoon.shell-format",
-      "mads-hartmann.bash-ide-vscode",
-      "timonwong.shellcheck"
-      // Docker
-      // "ms-azuretools.vscode-docker",
-      // Git
-      // "eamodio.gitlens",
-      // Json
-      // "esbenp.prettier-vscode",
-      // Nushell
-      // "thenuprojectcontributors.vscode-nushell-lang",
-      // Toml
-      // "tamasfe.even-better-toml"
-    ]
+      },
+      "extensions": [
+        // Github actions
+        "github.vscode-github-actions",
+        // Shell script
+        "foxundermoon.shell-format",
+        "mads-hartmann.bash-ide-vscode",
+        "timonwong.shellcheck"
+        // Docker
+        // "ms-azuretools.vscode-docker",
+        // Git
+        // "eamodio.gitlens",
+        // Json
+        // "esbenp.prettier-vscode",
+        // Nushell
+        // "thenuprojectcontributors.vscode-nushell-lang",
+        // Toml
+        // "tamasfe.even-better-toml"
+      ]
+    }
   }
 }
