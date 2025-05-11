@@ -20,8 +20,9 @@ $line_break\
 $character
 """
 
-# Disable the blank line at the start of the prompt
-# add_newline = false
+[os]
+style = "bg:#9A348E"
+disabled = false     # Disabled by default
 
 # You can also replace your username with a neat symbol like   or disable this
 # and use the os module below
@@ -31,12 +32,6 @@ style_user = "bg:#9A348E"
 style_root = "bg:#9A348E"
 format = '[$user ]($style)'
 disabled = false
-
-# An alternative to the username module which displays a symbol that
-# represents the current operating system
-[os]
-style = "bg:#9A348E"
-disabled = false     # Disabled by default
 
 [directory]
 style = "bg:#DA627D"
@@ -58,7 +53,6 @@ truncation_symbol = "…/"
 # "Important 󰈙 " = " 󰈙 "
 
 [docker_context]
-symbol = " "
 style = "bg:#06969A"
 format = '[ $symbol $context ]($style)'
 
