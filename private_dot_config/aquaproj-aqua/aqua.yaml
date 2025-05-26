@@ -30,7 +30,7 @@ packages:
   - name: jqlang/jq@jq-1.7.1
   - name: junegunn/fzf@v0.57.0
   - name: kubernetes/kubectl@v1.32.0
-  - name: kubernetes-sigs/kind@v0.26.0
+  - name: kubernetes-sigs/kind@v0.29.0
   - name: mikefarah/yq@v4.44.6
   - name: nektos/act@v0.2.70
   - name: neovim/neovim@v0.10.3
