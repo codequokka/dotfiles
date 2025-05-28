@@ -17,6 +17,7 @@ $git_branch\
 $git_status\
 $git_state\
 $docker_context\
+$kubernetes\
 $python\
 $line_break\
 $character
@@ -55,6 +56,13 @@ untracked = "[?](underline #FFFF33)"
 [docker_context]
 style = "#33FF33"
 format = '[$symbol$context ]($style)'
+
+[kubernetes]
+disabled = false
+style = "#33FF33"
+# format = '[$symbol$context(\($namespace\))]($style)'
+format = '[$symbol ($namespace@)$cluster]($style)'
+detect_env_vars = ["KUBECONFIG"]
 
 [python]
 style = "#0099FF"
