@@ -22,14 +22,14 @@ packages:
   - name: FiloSottile/age@v1.2.1
   - name: getsops/sops@v3.9.2
   - name: goss-org/goss@v0.4.9
-  - name: go-task/task@v3.40.1
+  - name: go-task/task@v3.43.3
   - name: hadolint/hadolint@v2.12.0
-  - name: helmfile/helmfile@v0.169.2
-  - name: helm/helm@v3.16.4
+  - name: helmfile/helmfile@v1.1.1
+  - name: helm/helm@v3.18.2
   - name: jesseduffield/lazydocker@v0.24.1
   - name: jqlang/jq@jq-1.7.1
   - name: junegunn/fzf@v0.57.0
-  - name: kubernetes/kubectl@v1.32.0
+  - name: kubernetes/kubernetes/kubectl@v1.33.1
   - name: kubernetes-sigs/kind@v0.29.0
   - name: mikefarah/yq@v4.44.6
   - name: nektos/act@v0.2.70
