@@ -12,6 +12,7 @@
 format = """
 $os\
 $username\
+$hostname\
 $directory\
 $git_branch\
 $git_status\
@@ -28,9 +29,14 @@ disabled = false
 style = " #FF0066"
 
 [username]
-format = '[$user ]($style)'
+format = '[$user]($style)'
 show_always = true
 style_user = " #FF0066"
+
+[hostname]
+format = '[@$hostname ]($style)'
+ssh_only = false
+style = " #FF0066"
 
 [directory]
 format = "[📁 $path ]($style)"
