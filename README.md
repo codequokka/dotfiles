@@ -5,7 +5,7 @@
 ### On the your bare-metal or virtual machine host
 
 ```bash
-sh -c "$(curl -fsLS get.chezmoi.io)" -- -b "${HOME}/.local/bin" -d init --apply curledupfox
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b "${HOME}/.local/bin" -d init --apply codequokka
 ```
 
 ### On the your docker container
