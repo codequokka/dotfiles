@@ -5,7 +5,10 @@
     "TZ": "Asia/Tokyo"
   },
   "onCreateCommand": "${containerWorkspaceFolder}/install.sh",
-  "features": {},
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
   "customizations": {
     "vscode": {
       "settings": {
