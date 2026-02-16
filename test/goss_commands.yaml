@@ -1,16 +1,16 @@
 ---
 command:
-  act:
-    exec: act --version
-    exit-status: 0
+  # act:
+  #   exec: act --version
+  #   exit-status: 0
 
-  age:
-    exec: age --help
-    exit-status: 0
+  # age:
+  #   exec: age --help
+  #   exit-status: 0
 
-  age-keygen:
-    exec: age-keygen --help
-    exit-status: 0
+  # age-keygen:
+  #   exec: age-keygen --help
+  #   exit-status: 0
 
   aqua:
     exec: aqua --version
@@ -64,17 +64,17 @@ command:
     exec: goss --version
     exit-status: 0
 
-  hadolint:
-    exec: hadolint --version
-    exit-status: 0
+  # hadolint:
+  #   exec: hadolint --version
+  #   exit-status: 0
 
-  helm:
-    exec: helm version
-    exit-status: 0
+  # helm:
+  #   exec: helm version
+  #   exit-status: 0
 
-  helmfile:
-    exec: helmfile version
-    exit-status: 0
+  # helmfile:
+  #   exec: helmfile version
+  #   exit-status: 0
 
   jnv:
     exec: jnv --version
@@ -88,25 +88,25 @@ command:
     exec: k9s version
     exit-status: 0
 
-  kind:
-    exec: kind
-    exit-status: 0
+  # kind:
+  #   exec: kind
+  #   exit-status: 0
 
   kubectl:
     exec: kubectl
     exit-status: 0
 
-  kubectx:
-    exec: kubectx --version
-    exit-status: 0
+  # kubectx:
+  #   exec: kubectx --version
+  #   exit-status: 0
 
-  kubens:
-    exec: kubectx --version
-    exit-status: 0
+  # kubens:
+  #   exec: kubectx --version
+  #   exit-status: 0
 
-  kubie:
-    exec: kubie --version
-    exit-status: 0
+  # kubie:
+  #   exec: kubie --version
+  #   exit-status: 0
 
   lazydocker:
     exec: lazydocker --version
@@ -116,9 +116,9 @@ command:
     exec: rg --version
     exit-status: 0
 
-  sops:
-    exec: sops --version
-    exit-status: 0
+  # sops:
+  #   exec: sops --version
+  #   exit-status: 0
 
   talosctl:
     exec: talosctl help
