@@ -39,7 +39,9 @@
         "mads-hartmann.bash-ide-vscode",
         "timonwong.shellcheck",
         // Toml
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        // Yaml
+        "redhat.vscode-yaml"
       ]
     }
   }
