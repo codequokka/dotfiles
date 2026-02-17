@@ -31,11 +31,11 @@ bindkey -e
 # ------------------------------------------------------------------------------
 alias g='git'
 alias k='kubectl'
-alias l='exa -l -g --icons --git'
-alias la='exa -l -a --icons --git'
-alias lt='exa -l -t changed -snew --icons --git'
+alias l='eza -l -g --icons --git'
+alias la='eza -l -a --icons --git'
+alias lt='eza -l -t changed -snew --icons --git'
 alias n='nvim'
-alias tree='exa -T -a -I ".git" --icons'
+alias tree='eza -T -a -I ".git" --icons'
 
 alias -g J='| jq'
 alias -g G='| rg -i'
@@ -55,7 +55,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=grey,bg=grey,bold,underline"
 zstyle ':completion:*:git-checkout:*' sort false
 zstyle ':completion:*:descriptions' format '[%d]'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
 zstyle ':fzf-tab:*' switch-group ',' '.'
 zstyle ':fzf-tab:*' fzf-pad 4
 

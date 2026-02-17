@@ -32,8 +32,8 @@ command:
     exec: direnv --version
     exit-status: 0
 
-  exa:
-    exec: exa --version
+  eza:
+    exec: eza --version
     exit-status: 0
 
   fd:
