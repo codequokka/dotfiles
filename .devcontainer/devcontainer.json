@@ -2,7 +2,7 @@
   "name": "ubuntu",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-24.04",
   "containerEnv": {
-    "DEVCONTAINER_NAME": "python",
+    "DEVCONTAINER_NAME": "ubuntu",
     "DEVCONTAINER_USER": "vscode",
     "EDITOR": "code --wait",
     "LC_ALL": "C.UTF-8",
@@ -16,7 +16,7 @@
     "vscode": {
       "settings": {
         // Editor
-        "editor.fontFamily": "'Monaspace Neon', monospace",
+        // "editor.fontFamily": "'Monaspace Neon NF', monospace",
         "editor.formatOnSave": true,
         // Files
         "files.insertFinalNewline": true,
@@ -24,6 +24,7 @@
         "files.trimTrailingWhitespace": true,
         // Terminal
         "terminal.integrated.defaultProfile.linux": "zsh",
+        // "terminal.integrated.fontFamily": "'Monaspace Neon NF', monospace",
         // Shell script
         "[shellscript]": {
           "editor.defaultFormatter": "foxundermoon.shell-format"
