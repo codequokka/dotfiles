@@ -5,21 +5,7 @@
 # -----------------------------------------------------------------------------
 manage_os_packages() {
   if (type 'apt-get' >/dev/null 2>&1); then
-    # Debian variants
-
-    # sudo apt-get update
-    # sudo apt-get upgrade -y
-
-    packages=(
-      fuse
-      gcc
-      git
-      zsh
-    )
-
-    for package in "${packages[@]}"; do
-      sudo apt-get install -y "$package"
-    done
+    echo "DO NOTHING"
   elif (type 'dnf' >/dev/null 2>&1); then
     # Redhat variants
 
