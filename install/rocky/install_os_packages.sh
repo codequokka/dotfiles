@@ -7,19 +7,20 @@ if [ "${DOTFILES_DEBUG:-}" ]; then
 fi
 
 readonly packages=(
+    epel-release
     fuse
-    gcc
     git
+    util-linux-user
     zsh
 )
 
 function update_os_packages() {
-    sudo apt-get update
-    sudo apt-get upgrade -y
+    sudo dnf check-update
+    sudo dnf update -y
 }
 
 function install_os_packages() {
-    sudo apt-get install -y "${packages[@]}"
+    sudo dnf install -y "${packages[@]}"
 }
 
 function main() {
