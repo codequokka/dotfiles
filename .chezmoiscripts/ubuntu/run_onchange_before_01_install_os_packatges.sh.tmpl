@@ -1,7 +1,5 @@
 {{ if eq .chezmoi.os "linux" -}}
 {{   if eq .chezmoi.osRelease.id "ubuntu" -}}
 {{     include "./install/ubuntu/install_os_packages.sh" }}
-{{   else -}}
-{{     fail (printf "Unsupported OS type: %s" .chezmoi.osRelease.id) }}
 {{   end -}}
 {{ end -}}
